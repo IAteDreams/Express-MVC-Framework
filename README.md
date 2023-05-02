@@ -8,3 +8,19 @@ To get started with the Express MVC Framework, you will need to have Node.js ins
 
 ## Directory Structure
 The directory structure of the project follows the MVC architecture, with separate directories for models, views, controllers, settings, assets, and system. The app.js file is the main entry point for the application, which initializes the Express app and in the seetings it sets up the middleware and routes.
+```
+├── assets
+├── main
+│   ├──  controllers
+|   ├──  models
+|   ├──  views
+├── node modules
+├── settings
+│   └──  config.js
+│   └──  route.js
+├── systems
+├── utilities
+│   ├──  Profiler_util
+│   └──  validation.js
+└── app.js
+```
